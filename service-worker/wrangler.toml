@@ -1,0 +1,8 @@
+name = "no-static-content-manifest-in-miniflare"
+main = "./src/index.js"
+compatibility_date = "2022-04-05"
+compatibility_flags = ["url_standard"]
+
+[site]
+bucket = "./res"
+include = ["*"]
